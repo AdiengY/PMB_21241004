@@ -1,0 +1,7 @@
+body {
+    background-color: aliceblue;
+    background-image: url(img/bg1.png);
+    /* valuenya bisa diganti-ganti */
+    background-repeat: no-repeat;
+    background-position: top right;
+}

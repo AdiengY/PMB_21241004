@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Latihan-2</title>
+</head>
+<body>
+    <h1>Latihan Table Merging</h1>
+    <table border="1" cellspacing="0" cellpading="5">
+        <tr>
+            <td>baris 1, kolom 1</td>
+            <td>baris 1, kolom 2</td>
+            <td>baris 1, kolom 3</td>
+            <td>baris 1, kolom 4</td>
+        </tr>
+        <tr>
+            <td>baris 2, kolom 1</td>
+            <td>baris 2, kolom 2</td>
+            <td>baris 2, kolom 3</td>
+            <td>baris 2, kolom 4</td>
+        </tr>
+        <tr>
+            <td>baris 3, kolom 1</td>
+            <td>baris 3, kolom 2</td>
+            <td>baris 3, kolom 3</td>
+            <td>baris 3, kolom 4</td>
+        </tr>
+        <tr>
+            <td>baris 4, kolom 1</td>
+            <td>baris 4, kolom 2</td>
+            <td>baris 4, kolom 3</td>
+            <td>baris 4, kolom 4</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Jawaban</h1>
+    <table border="1" cellspacing="0" cellpading="5">
+        <tr>
+            <td>baris 1, kolom 1</td>
+            <td>baris 1, kolom 2</td>
+            <td>baris 1, kolom 3</td>
+            <td>baris 1, kolom 4</td>
+        </tr>
+        <tr>
+            <td>baris 2, kolom 1</td>
+            <td rowspan="2", colspan="2">rowspan 2, colspan 2</td>
+            <td>baris 2, kolom 4</td>
+        </tr>
+        <tr>
+            <td>baris 3, kolom 1</td>
+            <td>baris 3, kolom 4</td>
+        </tr>
+        <tr>
+            <td>baris 4, kolom 1</td>
+            <td>baris 4, kolom 2</td>
+            <td>baris 4, kolom 3</td>
+            <td>baris 4, kolom 4</td>
+        </tr>  
+    </table>
+
+</body>
+</html>

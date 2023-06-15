@@ -1,0 +1,18 @@
+  h1 {
+      color: rgb(115, 80, 212);
+      font-size: 150px;
+      text-decoration: underline;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+  }
+
+  p {
+      text-align: justify;
+      text-indent: 5%;
+      text-transform: capitalize;
+      word-spacing: 5px;
+  }
+
+  a {
+      text-decoration: none;
+  }

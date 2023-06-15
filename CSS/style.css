@@ -1,0 +1,16 @@
+a {
+    background-color: rgb(230, 79, 79);
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+
+.navigasi {
+    background-color: aqua;
+}
+
+.main {
+    background-color: azure;
+}
+
+.main span {background-color: greenyellow;}
